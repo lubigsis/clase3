@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        table, td, th{
+            border: solid 1px rgb(255, 106, 0);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Tablas
+        </h1>
+    </header>
+    <main>
+        <section>
+    <h2>Estructura básica de una tabla:</h2>
+    <table>
+        <tr>
+            <th>Curso</th>
+            <th>Comisión</th>
+        </tr>
+        <tr>
+            <td>
+                Java
+            </td>
+            <td>
+                2009
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Python
+            </td>
+            <td>
+                2005
+            </td>
+        </tr>
+        <tr>
+            <td>
+                PHP
+            </td>
+            <td>
+                2012
+            </td>
+        </tr>
+    </table>
+</section>
+    <br>
+<section>
+    <h2>Colspan y Rowspan:</h2>
+
+    <table>
+        <tr>
+            <th>Curso</th>
+            <th>Comisión</th>
+        </tr>
+        <tr>
+            <td colspan="2"><!--Se fusionan. 'Colspan' indica el número de columnas que ocupará la celda.-->
+                Java
+            </td>
+                      <!--se sacó el valor 2009 pq no quedaba-->    
+        </tr>
+        <tr>
+            <td>
+                Python
+            </td>
+            <td rowspan="2"> <!--'Rowspan' indica el número de filas que ocupará la celda.-->
+                2012
+            </td>
+        </tr>
+        <tr>
+            <td>
+                PHP
+            </td>
+            
+        </tr>
+    </table>
+</section>
+    <br>
+<section>
+    <h2>
+        Estructura completa de una tabla:
+    </h2>
+    <table>
+        <thead>
+            <tr>
+                 <th>
+                     Nombre
+                 </th>
+                 <th>
+                     Apellido
+                 </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Pedro
+                </td>
+                <td>
+                    Picapiedra
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Pedro
+                </td>
+                <td>
+                    Mármol
+                </td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+
+    </table>
+
+</section>
+</main>
+    <br>
+    <br>
+    <hr/>
+    <br>
+<footer>
+    <nav>
+        <a href="listas.html" target>Listas   |</a>
+        <a href="index.html"  target>Inicio   |</a>
+        <a href="iframe.html" target>Iframe   |</a>
+        <a href="iconos.html" target>Iconos   |</a>
+    </nav>
+</footer>
+</body>
+</html>
